@@ -1,0 +1,19 @@
+# Example YAML to get you started quickly.
+# Be aware that YAML has indentation based scoping.
+# Code completion support is available so start typing for available options.
+swagger: '2.0'
+
+# This is your document metadata
+info:
+  description: ""
+  version: "1.0.0"
+  title: "s3-api"
+paths:
+  /api/s3/healthcheck:
+    get:
+      description: "Endpoint for api Health check"
+      produces:
+        - application/json
+      responses:
+        200:
+          description: "JSON response from api"

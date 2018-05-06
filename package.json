@@ -1,0 +1,32 @@
+{
+  "name": "s3-api",
+  "version": "1.0.0",
+  "description": "upload files into aws s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node src/index.js"
+  },
+  "author": "Kabil Jayaraman",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.212.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "bunyan": "^1.8.12",
+    "common": "git+https://github.com/jk-sourcecode/common.git",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "nodemon": "^1.17.3",
+    "swagger-tools": "^0.10.3",
+    "swagger-ui": "^3.13.2",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0"
+  }
+}
